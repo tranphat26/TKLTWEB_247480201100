@@ -1,0 +1,19 @@
+h2 {
+  font-size: 24px;
+  color: #040404;
+  background-color: #e60b0b;
+}
+p.doan-1 {
+  font-size: 14pt;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: #12bac3;
+  color: #ffffff;
+}
+p.doan-2 {
+  font-size: 14pt;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  background-color: #dc8f0a;
+  color: #d4d114;
+}
