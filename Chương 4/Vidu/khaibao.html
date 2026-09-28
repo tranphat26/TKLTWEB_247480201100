@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        document.write(arr)
+        alert(arr[1]); //result: 2
+        alert(arr.length);
+        document.write(arr.join() + '<br>');
+        //result: 1,2,4,5,9,6
+        //gộp mảng ngăn cách nhau bằng -
+        document.write(arr.join('_')) + '<br>'
+        //result: 1-2-4-5-9-6
+        var arr = new Array(1, 2, 4, 5, 9, 6);
+        document.write(arr.join() + '<br>');
+        arr.push(10); //thêm 10 vào mảng
+        document.write(arr.join() + '<br');
+
+    </script>
+</body>
+</html>
