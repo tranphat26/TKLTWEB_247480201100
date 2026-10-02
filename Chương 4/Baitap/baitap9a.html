@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bt4,9a</title>
+        <meta charset="UTF-8">
+        <style>
+            h1{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var soluong, x;
+            var ds = new Array(100);
+            soluong = prompt(" bạn cần nhập bao nhiêu người? ", 5);
+            for (i = 0; i < soluong; i++) 
+            {
+                ds[i] = prompt(" nhập vào họ tên:", "");
+            }           
+            ds.sort();
+            document.write("<h1> danh sách đã sắp xếp là: </h1>");
+            for (x in ds) {
+                    document.write(ds[x]);
+                    document.write("<br>");
+            }
+        </script>
+    </body>
+</html>
