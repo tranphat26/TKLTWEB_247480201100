@@ -5,11 +5,12 @@ $username = "root";
 $password = "";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
-$sql = "INSERT INTO khachhang VALUES('K011','Tran Hoa Phat','2006','00879565451','Bac Lieu')";
+
+$sql = "INSERT INTO khachhang VALUES ('K011', 'Lương Hoàng Phúc', '2006', '123456789', 'Bạc Liêu')";
 $result = mysqli_query ($conn, $sql);
-if ($result) {
+if ($result){
     echo "Mẫu tin đã được thêm.";
-} else
+}else
     {
         echo "Không thêm được";
     }
